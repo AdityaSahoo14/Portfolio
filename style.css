@@ -167,6 +167,17 @@ nav ul li a:hover::after{
     display: block;
 }
 
+.skills-container ul {
+  column-count: 2;
+  column-gap: 40px;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.skills-container li {
+  margin-bottom: 10px;
+}
+
 /* ---------------------------Services------------------------------- */
 #services{
     padding: 30px 0;
@@ -448,6 +459,10 @@ nav .fa-solid{
 
     .copyright{
         font-size: 14px;
+    }
+
+    .skills-container ul {
+        column-count: 1;
     }
 }
 
